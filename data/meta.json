@@ -1,0 +1,726 @@
+{
+  "globalMinYear": 1871,
+  "globalMaxYear": 2021,
+  "franchises": [
+    {
+      "id": "ALT",
+      "name": "Altoona Mountain City",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "ARI",
+      "name": "Arizona Diamondbacks",
+      "minYear": 1998,
+      "maxYear": 2021
+    },
+    {
+      "id": "ATL",
+      "name": "Atlanta Braves",
+      "minYear": 1876,
+      "maxYear": 2021
+    },
+    {
+      "id": "BLC",
+      "name": "Baltimore Canaries",
+      "minYear": 1872,
+      "maxYear": 1874
+    },
+    {
+      "id": "MAR",
+      "name": "Baltimore Marylands",
+      "minYear": 1873,
+      "maxYear": 1873
+    },
+    {
+      "id": "BLU",
+      "name": "Baltimore Monumentals",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "BLO",
+      "name": "Baltimore Orioles",
+      "minYear": 1882,
+      "maxYear": 1899
+    },
+    {
+      "id": "BAL",
+      "name": "Baltimore Orioles",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "BLT",
+      "name": "Baltimore Terrapins",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "BOS",
+      "name": "Boston Red Sox",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "BNA",
+      "name": "Boston Red Stockings",
+      "minYear": 1871,
+      "maxYear": 1875
+    },
+    {
+      "id": "BRD",
+      "name": "Boston Reds",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "BRS",
+      "name": "Boston Reds",
+      "minYear": 1890,
+      "maxYear": 1891
+    },
+    {
+      "id": "BRA",
+      "name": "Brooklyn Atlantics",
+      "minYear": 1872,
+      "maxYear": 1875
+    },
+    {
+      "id": "ECK",
+      "name": "Brooklyn Eckfords",
+      "minYear": 1872,
+      "maxYear": 1872
+    },
+    {
+      "id": "BRG",
+      "name": "Brooklyn Gladiators",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "BTT",
+      "name": "Brooklyn Tip-Tops",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "BWW",
+      "name": "Brooklyn Ward's Wonders",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "BUF",
+      "name": "Buffalo Bisons",
+      "minYear": 1879,
+      "maxYear": 1885
+    },
+    {
+      "id": "BFB",
+      "name": "Buffalo Bisons",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "BFL",
+      "name": "Buffalo Blues",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "CHC",
+      "name": "Chicago Cubs",
+      "minYear": 1876,
+      "maxYear": 2021
+    },
+    {
+      "id": "CHP",
+      "name": "Chicago Pirates",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "CHH",
+      "name": "Chicago Whales",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "CHW",
+      "name": "Chicago White Sox",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "CNA",
+      "name": "Chicago White Stockings",
+      "minYear": 1871,
+      "maxYear": 1875
+    },
+    {
+      "id": "CPI",
+      "name": "Chicago/Pittsburgh (Union League)",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "CKK",
+      "name": "Cincinnati Kelly's Killers",
+      "minYear": 1891,
+      "maxYear": 1891
+    },
+    {
+      "id": "COR",
+      "name": "Cincinnati Outlaw Reds",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "CNR",
+      "name": "Cincinnati Reds",
+      "minYear": 1876,
+      "maxYear": 1880
+    },
+    {
+      "id": "CIN",
+      "name": "Cincinnati Reds",
+      "minYear": 1882,
+      "maxYear": 2021
+    },
+    {
+      "id": "CBL",
+      "name": "Cleveland Blues",
+      "minYear": 1879,
+      "maxYear": 1884
+    },
+    {
+      "id": "CFC",
+      "name": "Cleveland Forest Citys",
+      "minYear": 1871,
+      "maxYear": 1872
+    },
+    {
+      "id": "CLE",
+      "name": "Cleveland Indians",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "CLI",
+      "name": "Cleveland Infants",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "CLV",
+      "name": "Cleveland Spiders",
+      "minYear": 1887,
+      "maxYear": 1899
+    },
+    {
+      "id": "COL",
+      "name": "Colorado Rockies",
+      "minYear": 1993,
+      "maxYear": 2021
+    },
+    {
+      "id": "CBK",
+      "name": "Columbus Buckeyes",
+      "minYear": 1883,
+      "maxYear": 1884
+    },
+    {
+      "id": "CLS",
+      "name": "Columbus Solons",
+      "minYear": 1889,
+      "maxYear": 1891
+    },
+    {
+      "id": "DET",
+      "name": "Detroit Tigers",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "DTN",
+      "name": "Detroit Wolverines",
+      "minYear": 1881,
+      "maxYear": 1888
+    },
+    {
+      "id": "RES",
+      "name": "Elizabeth Resolutes",
+      "minYear": 1873,
+      "maxYear": 1873
+    },
+    {
+      "id": "KEK",
+      "name": "Fort Wayne Kekiongas",
+      "minYear": 1871,
+      "maxYear": 1871
+    },
+    {
+      "id": "HNA",
+      "name": "Hartford Dark Blues",
+      "minYear": 1874,
+      "maxYear": 1875
+    },
+    {
+      "id": "HAR",
+      "name": "Hartford Dark Blues",
+      "minYear": 1876,
+      "maxYear": 1877
+    },
+    {
+      "id": "HOU",
+      "name": "Houston Astros",
+      "minYear": 1962,
+      "maxYear": 2021
+    },
+    {
+      "id": "IBL",
+      "name": "Indianapolis Blues",
+      "minYear": 1878,
+      "maxYear": 1878
+    },
+    {
+      "id": "IHO",
+      "name": "Indianapolis Hoosiers",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "IND",
+      "name": "Indianapolis Hoosiers",
+      "minYear": 1887,
+      "maxYear": 1889
+    },
+    {
+      "id": "KCU",
+      "name": "Kansas City Cowboys",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "KCN",
+      "name": "Kansas City Cowboys",
+      "minYear": 1886,
+      "maxYear": 1886
+    },
+    {
+      "id": "KCC",
+      "name": "Kansas City Cowboys",
+      "minYear": 1888,
+      "maxYear": 1889
+    },
+    {
+      "id": "KCP",
+      "name": "Kansas City Packers",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "KCR",
+      "name": "Kansas City Royals",
+      "minYear": 1969,
+      "maxYear": 2021
+    },
+    {
+      "id": "WES",
+      "name": "Keokuk Westerns",
+      "minYear": 1875,
+      "maxYear": 1875
+    },
+    {
+      "id": "ANA",
+      "name": "Los Angeles Angels of Anaheim",
+      "minYear": 1961,
+      "maxYear": 2021
+    },
+    {
+      "id": "LAD",
+      "name": "Los Angeles Dodgers",
+      "minYear": 1884,
+      "maxYear": 2021
+    },
+    {
+      "id": "LOU",
+      "name": "Louisville Colonels",
+      "minYear": 1882,
+      "maxYear": 1899
+    },
+    {
+      "id": "LGR",
+      "name": "Louisville Grays",
+      "minYear": 1876,
+      "maxYear": 1877
+    },
+    {
+      "id": "FLA",
+      "name": "Miami Marlins",
+      "minYear": 1993,
+      "maxYear": 2021
+    },
+    {
+      "id": "MAN",
+      "name": "Middletown Mansfields",
+      "minYear": 1872,
+      "maxYear": 1872
+    },
+    {
+      "id": "MLU",
+      "name": "Milwaukee Brewers",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "MLA",
+      "name": "Milwaukee Brewers",
+      "minYear": 1891,
+      "maxYear": 1891
+    },
+    {
+      "id": "MIL",
+      "name": "Milwaukee Brewers",
+      "minYear": 1969,
+      "maxYear": 2021
+    },
+    {
+      "id": "MLG",
+      "name": "Milwaukee Grays",
+      "minYear": 1878,
+      "maxYear": 1878
+    },
+    {
+      "id": "MIN",
+      "name": "Minnesota Twins",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "NHV",
+      "name": "New Haven Elm Citys",
+      "minYear": 1875,
+      "maxYear": 1875
+    },
+    {
+      "id": "NYI",
+      "name": "New York Giants",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "NYP",
+      "name": "New York Metropolitans",
+      "minYear": 1883,
+      "maxYear": 1887
+    },
+    {
+      "id": "NYM",
+      "name": "New York Mets",
+      "minYear": 1962,
+      "maxYear": 2021
+    },
+    {
+      "id": "NNA",
+      "name": "New York Mutuals",
+      "minYear": 1871,
+      "maxYear": 1875
+    },
+    {
+      "id": "NYU",
+      "name": "New York Mutuals",
+      "minYear": 1876,
+      "maxYear": 1876
+    },
+    {
+      "id": "NYY",
+      "name": "New York Yankees",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "NEW",
+      "name": "Newark Pepper",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "OAK",
+      "name": "Oakland Athletics",
+      "minYear": 1901,
+      "maxYear": 2021
+    },
+    {
+      "id": "PNA",
+      "name": "Philadelphia Athletics",
+      "minYear": 1871,
+      "maxYear": 1875
+    },
+    {
+      "id": "ATH",
+      "name": "Philadelphia Athletics",
+      "minYear": 1876,
+      "maxYear": 1876
+    },
+    {
+      "id": "PHA",
+      "name": "Philadelphia Athletics",
+      "minYear": 1882,
+      "maxYear": 1890
+    },
+    {
+      "id": "PHQ",
+      "name": "Philadelphia Athletics",
+      "minYear": 1890,
+      "maxYear": 1891
+    },
+    {
+      "id": "CEN",
+      "name": "Philadelphia Centennials",
+      "minYear": 1875,
+      "maxYear": 1875
+    },
+    {
+      "id": "PHK",
+      "name": "Philadelphia Keystones",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "PHI",
+      "name": "Philadelphia Phillies",
+      "minYear": 1883,
+      "maxYear": 2021
+    },
+    {
+      "id": "PWS",
+      "name": "Philadelphia Whites",
+      "minYear": 1873,
+      "maxYear": 1875
+    },
+    {
+      "id": "PBB",
+      "name": "Pittsburgh Burghers",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "PIT",
+      "name": "Pittsburgh Pirates",
+      "minYear": 1882,
+      "maxYear": 2021
+    },
+    {
+      "id": "PBS",
+      "name": "Pittsburgh Rebels",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "PRO",
+      "name": "Providence Grays",
+      "minYear": 1878,
+      "maxYear": 1885
+    },
+    {
+      "id": "RIC",
+      "name": "Richmond Virginians",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "ROC",
+      "name": "Rochester Broncos",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "ROK",
+      "name": "Rockford Forest Citys",
+      "minYear": 1871,
+      "maxYear": 1871
+    },
+    {
+      "id": "SDP",
+      "name": "San Diego Padres",
+      "minYear": 1969,
+      "maxYear": 2021
+    },
+    {
+      "id": "SFG",
+      "name": "San Francisco Giants",
+      "minYear": 1883,
+      "maxYear": 2021
+    },
+    {
+      "id": "SEA",
+      "name": "Seattle Mariners",
+      "minYear": 1977,
+      "maxYear": 2021
+    },
+    {
+      "id": "SNA",
+      "name": "St. Louis Brown Stockings",
+      "minYear": 1875,
+      "maxYear": 1875
+    },
+    {
+      "id": "SBS",
+      "name": "St. Louis Brown Stockings",
+      "minYear": 1876,
+      "maxYear": 1877
+    },
+    {
+      "id": "STL",
+      "name": "St. Louis Cardinals",
+      "minYear": 1882,
+      "maxYear": 2021
+    },
+    {
+      "id": "SLM",
+      "name": "St. Louis Maroons",
+      "minYear": 1884,
+      "maxYear": 1886
+    },
+    {
+      "id": "SLR",
+      "name": "St. Louis Red Stockings",
+      "minYear": 1875,
+      "maxYear": 1875
+    },
+    {
+      "id": "SLI",
+      "name": "St. Louis Terriers",
+      "minYear": 1914,
+      "maxYear": 1915
+    },
+    {
+      "id": "STP",
+      "name": "St. Paul White Caps",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "SYR",
+      "name": "Syracuse Stars",
+      "minYear": 1879,
+      "maxYear": 1879
+    },
+    {
+      "id": "SYS",
+      "name": "Syracuse Stars",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "TBD",
+      "name": "Tampa Bay Rays",
+      "minYear": 1998,
+      "maxYear": 2021
+    },
+    {
+      "id": "TEX",
+      "name": "Texas Rangers",
+      "minYear": 1961,
+      "maxYear": 2021
+    },
+    {
+      "id": "TOL",
+      "name": "Toledo Blue Stockings",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "TLM",
+      "name": "Toledo Maumees",
+      "minYear": 1890,
+      "maxYear": 1890
+    },
+    {
+      "id": "TOR",
+      "name": "Toronto Blue Jays",
+      "minYear": 1977,
+      "maxYear": 2021
+    },
+    {
+      "id": "TRO",
+      "name": "Troy Haymakers",
+      "minYear": 1871,
+      "maxYear": 1872
+    },
+    {
+      "id": "TRT",
+      "name": "Troy Trojans",
+      "minYear": 1879,
+      "maxYear": 1882
+    },
+    {
+      "id": "WBL",
+      "name": "Washington Blue Legs",
+      "minYear": 1873,
+      "maxYear": 1873
+    },
+    {
+      "id": "NAT",
+      "name": "Washington Nationals",
+      "minYear": 1872,
+      "maxYear": 1872
+    },
+    {
+      "id": "WNT",
+      "name": "Washington Nationals",
+      "minYear": 1875,
+      "maxYear": 1875
+    },
+    {
+      "id": "WNA",
+      "name": "Washington Nationals",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "WST",
+      "name": "Washington Nationals",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "WNL",
+      "name": "Washington Nationals",
+      "minYear": 1886,
+      "maxYear": 1889
+    },
+    {
+      "id": "WSN",
+      "name": "Washington Nationals",
+      "minYear": 1969,
+      "maxYear": 2021
+    },
+    {
+      "id": "OLY",
+      "name": "Washington Olympics",
+      "minYear": 1871,
+      "maxYear": 1872
+    },
+    {
+      "id": "WAS",
+      "name": "Washington Senators",
+      "minYear": 1891,
+      "maxYear": 1899
+    },
+    {
+      "id": "WIL",
+      "name": "Wilmington Quicksteps",
+      "minYear": 1884,
+      "maxYear": 1884
+    },
+    {
+      "id": "WOR",
+      "name": "Worcester Ruby Legs",
+      "minYear": 1880,
+      "maxYear": 1882
+    }
+  ]
+}
