@@ -7,7 +7,6 @@ import type { WeightedPoint } from '../types/player';
 
 interface FilteredPoints {
   birth: WeightedPoint[];
-  death: WeightedPoint[];
   college: WeightedPoint[];
   highSchool: WeightedPoint[];
   matchCount: number;
@@ -27,11 +26,6 @@ export function useFilteredPoints(): FilteredPoints {
     [playerMap, filteredIds, activeLayers]
   );
 
-  const death = useMemo(
-    () => (activeLayers.has('death') ? buildHeatmapPoints(playerMap, filteredIds, 'death') : []),
-    [playerMap, filteredIds, activeLayers]
-  );
-
   const college = useMemo(
     () => (activeLayers.has('college') ? buildHeatmapPoints(playerMap, filteredIds, 'college') : []),
     [playerMap, filteredIds, activeLayers]
@@ -42,5 +36,5 @@ export function useFilteredPoints(): FilteredPoints {
     [playerMap, filteredIds, activeLayers]
   );
 
-  return { birth, death, college, highSchool, matchCount: filteredIds.size };
+  return { birth, college, highSchool, matchCount: filteredIds.size };
 }

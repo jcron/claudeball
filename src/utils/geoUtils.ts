@@ -1,6 +1,6 @@
 import type { Player, WeightedPoint } from '../types/player';
 
-type Layer = 'birth' | 'death' | 'college' | 'highSchool';
+type Layer = 'birth' | 'college' | 'highSchool';
 
 /**
  * Builds a [lon, lat, 1][] array for the given layer type,
@@ -23,9 +23,6 @@ export function buildHeatmapPoints(
     if (layer === 'birth' && player.birth) {
       lat = player.birth.lat;
       lon = player.birth.lon;
-    } else if (layer === 'death' && player.death) {
-      lat = player.death.lat;
-      lon = player.death.lon;
     } else if (layer === 'college' && player.college) {
       lat = player.college.lat;
       lon = player.college.lon;

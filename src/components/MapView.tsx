@@ -26,14 +26,6 @@ const BIRTH_COLORS: [number, number, number, number][] = [
   [200, 245, 255, 255],
 ];
 
-const DEATH_COLORS: [number, number, number, number][] = [
-  [150, 50, 0, 0],
-  [220, 80, 0, 80],
-  [255, 120, 20, 180],
-  [255, 180, 60, 220],
-  [255, 230, 140, 255],
-];
-
 const COLLEGE_COLORS: [number, number, number, number][] = [
   [0, 80, 20, 0],
   [0, 140, 40, 80],
@@ -67,7 +59,7 @@ interface TooltipInfo {
 export function MapView() {
   const { playerMap, populationPoints } = useDataStore();
   const { activeLayers } = useFilterStore();
-  const { birth, death, college, highSchool } = useFilteredPoints();
+  const { birth, college, highSchool } = useFilteredPoints();
   const [tooltip, setTooltip] = useState<TooltipInfo | null>(null);
 
   // Build scatter points for hover detection (birth layer only for perf)
@@ -164,22 +156,6 @@ export function MapView() {
       );
     }
 
-    if (activeLayers.has('death') && death.length > 0) {
-      result.push(
-        new HeatmapLayer({
-          id: 'death',
-          data: death,
-          getPosition: (d: WeightedPoint) => [d[0], d[1]],
-          getWeight: () => 1,
-          radiusPixels: 40,
-          intensity: 2,
-          threshold: 0.03,
-          colorRange: DEATH_COLORS,
-          debounceTimeout: 100,
-        }) as never
-      );
-    }
-
     if (activeLayers.has('college') && college.length > 0) {
       result.push(
         new HeatmapLayer({
@@ -249,7 +225,6 @@ export function MapView() {
     baseTileLayer,
     activeLayers,
     birth,
-    death,
     college,
     highSchool,
     populationPoints,

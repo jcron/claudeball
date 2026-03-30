@@ -23,8 +23,8 @@ OUTPUT_DIR = PIPELINE_DIR.parent / "public" / "data"
 PEOPLE_FILE = RAW_DIR / "baseballdatabank" / "core" / "People.csv"
 APPEARANCES_FILE = RAW_DIR / "baseballdatabank" / "core" / "Appearances.csv"
 TEAMS_FILE = RAW_DIR / "baseballdatabank" / "core" / "Teams.csv"
-COLLEGE_FILE = RAW_DIR / "baseballdatabank" / "core" / "CollegePlaying.csv"
-SCHOOLS_FILE = RAW_DIR / "baseballdatabank" / "core" / "Schools.csv"
+COLLEGE_FILE = RAW_DIR / "baseballdatabank" / "contrib" / "CollegePlaying.csv"
+SCHOOLS_FILE = RAW_DIR / "baseballdatabank" / "contrib" / "Schools.csv"
 GEONAMES_FILE = RAW_DIR / "geonames" / "cities1000.txt"
 
 GEOCODED_FILE = PIPELINE_DIR / "geocoded_locations.json"
@@ -170,11 +170,10 @@ def main():
     geocoded = load_geocoded()
 
     print("Loading high school data...")
+    hs_geo = {}
     if HIGHSCHOOL_FILE.exists():
         with open(HIGHSCHOOL_FILE) as f:
             hs_geo = json.load(f)
-    else:
-        hs_geo = {}
 
     print("Building school/college geo lookups...")
     school_geo = build_school_geo(geocoded)
@@ -230,18 +229,6 @@ def main():
             "country": birth_country or None,
         }
 
-        death_city = str(row.get("deathCity", "") or "").strip()
-        death_state = str(row.get("deathState", "") or "").strip()
-        death_country = str(row.get("deathCountry", "") or "").strip()
-        death_geo = lookup_geo(death_city, death_state, death_country, geocoded)
-        death = {
-            "lat": death_geo["lat"] if death_geo else None,
-            "lon": death_geo["lon"] if death_geo else None,
-            "city": death_city or None,
-            "state": death_state or None,
-            "country": death_country or None,
-        } if death_city else None
-
         col = college_map.get(pid)
         college = {"lat": col["lat"], "lon": col["lon"], "school": col.get("school")} if col else None
 
@@ -250,7 +237,8 @@ def main():
             "lat": hs["lat"],
             "lon": hs["lon"],
             "school": hs.get("school"),
-            "confidence": hs.get("confidence", "high"),
+            "city": hs.get("city"),
+            "state": hs.get("state"),
         } if hs else None
 
         players.append({
@@ -259,7 +247,6 @@ def main():
             "debut": debut,
             "finalGame": final_game,
             "birth": birth,
-            "death": death,
             "college": college,
             "highSchool": high_school,
             "teams": player_teams.get(pid, []),

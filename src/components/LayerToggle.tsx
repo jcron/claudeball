@@ -10,13 +10,12 @@ interface LayerConfig {
 
 const PLAYER_LAYERS: LayerConfig[] = [
   { key: 'birth', label: 'Birthplace', color: 'bg-sky-400' },
-  { key: 'death', label: 'Death place', color: 'bg-orange-400' },
   { key: 'college', label: 'College', color: 'bg-green-400' },
   {
     key: 'highSchool',
     label: 'High school',
     color: 'bg-purple-400',
-    note: 'Post-1960 players only; ~30–50% coverage',
+    note: 'Post-1960 players only',
   },
 ];
 

@@ -15,7 +15,8 @@ export interface CollegeLocation extends GeoPoint {
 
 export interface HighSchoolLocation extends GeoPoint {
   school: string | null;
-  confidence: 'high' | 'low';
+  city: string | null;
+  state: string | null;
 }
 
 export interface TeamEntry {
@@ -31,7 +32,6 @@ export interface Player {
   debut: number | null;
   finalGame: number | null;
   birth: BirthLocation;
-  death: BirthLocation | null;
   college: CollegeLocation | null;
   highSchool: HighSchoolLocation | null;
   teams: TeamEntry[];
@@ -53,4 +53,4 @@ export interface Meta {
 // [lon, lat, weight]
 export type WeightedPoint = [number, number, number];
 
-export type LayerKey = 'birth' | 'death' | 'college' | 'highSchool' | 'population';
+export type LayerKey = 'birth' | 'college' | 'highSchool' | 'population';
